@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790214DB16A90E640042D567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790214DA16A90E640042D567 /* Foundation.framework */; };
+		790214DE16A90E640042D567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790214DD16A90E640042D567 /* main.m */; };
+		790214E216A90E650042D567 /* AspectProxy.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 790214E116A90E650042D567 /* AspectProxy.1 */; };
+		7915674516B243FA0062EAD9 /* AspectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7915674416B243FA0062EAD9 /* AspectProxy.m */; };
+		7915674C16B252B40062EAD9 /* AuditingInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7915674B16B252B40062EAD9 /* AuditingInvoker.m */; };
+		79F7403816CB29D9003F8832 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F7403716CB29D9003F8832 /* Calculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		790214D416A90E640042D567 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				790214E216A90E650042D567 /* AspectProxy.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		790214D616A90E640042D567 /* AspectProxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AspectProxy; sourceTree = BUILT_PRODUCTS_DIR; };
+		790214DA16A90E640042D567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		790214DD16A90E640042D567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		790214E016A90E650042D567 /* AspectProxy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AspectProxy-Prefix.pch"; sourceTree = "<group>"; };
+		790214E116A90E650042D567 /* AspectProxy.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = AspectProxy.1; sourceTree = "<group>"; };
+		7915674116B243580062EAD9 /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
+		7915674316B243FA0062EAD9 /* AspectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AspectProxy.h; path = AspectProxy/AspectProxy.h; sourceTree = "<group>"; };
+		7915674416B243FA0062EAD9 /* AspectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AspectProxy.m; path = AspectProxy/AspectProxy.m; sourceTree = "<group>"; };
+		7915674A16B252B40062EAD9 /* AuditingInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AuditingInvoker.h; path = AspectProxy/AuditingInvoker.h; sourceTree = "<group>"; };
+		7915674B16B252B40062EAD9 /* AuditingInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AuditingInvoker.m; path = AspectProxy/AuditingInvoker.m; sourceTree = "<group>"; };
+		79F7403616CB29D9003F8832 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		79F7403716CB29D9003F8832 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		790214D316A90E640042D567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790214DB16A90E640042D567 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		790214CB16A90E640042D567 = {
+			isa = PBXGroup;
+			children = (
+				79F7403916CB29E4003F8832 /* Calculator */,
+				7915674A16B252B40062EAD9 /* AuditingInvoker.h */,
+				7915674B16B252B40062EAD9 /* AuditingInvoker.m */,
+				7915674316B243FA0062EAD9 /* AspectProxy.h */,
+				7915674416B243FA0062EAD9 /* AspectProxy.m */,
+				790214DC16A90E640042D567 /* AspectProxy */,
+				790214D916A90E640042D567 /* Frameworks */,
+				790214D716A90E640042D567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		790214D716A90E640042D567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				790214D616A90E640042D567 /* AspectProxy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		790214D916A90E640042D567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				790214DA16A90E640042D567 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790214DC16A90E640042D567 /* AspectProxy */ = {
+			isa = PBXGroup;
+			children = (
+				790214DD16A90E640042D567 /* main.m */,
+				790214E116A90E650042D567 /* AspectProxy.1 */,
+				790214DF16A90E650042D567 /* Supporting Files */,
+				7915674116B243580062EAD9 /* Invoker.h */,
+			);
+			path = AspectProxy;
+			sourceTree = "<group>";
+		};
+		790214DF16A90E650042D567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				790214E016A90E650042D567 /* AspectProxy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79F7403916CB29E4003F8832 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				79F7403616CB29D9003F8832 /* Calculator.h */,
+				79F7403716CB29D9003F8832 /* Calculator.m */,
+			);
+			name = Calculator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		790214D516A90E640042D567 /* AspectProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790214E516A90E650042D567 /* Build configuration list for PBXNativeTarget "AspectProxy" */;
+			buildPhases = (
+				790214D216A90E640042D567 /* Sources */,
+				790214D316A90E640042D567 /* Frameworks */,
+				790214D416A90E640042D567 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AspectProxy;
+			productName = AspectProxy;
+			productReference = 790214D616A90E640042D567 /* AspectProxy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		790214CD16A90E640042D567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Keith Lee";
+			};
+			buildConfigurationList = 790214D016A90E640042D567 /* Build configuration list for PBXProject "AspectProxy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 790214CB16A90E640042D567;
+			productRefGroup = 790214D716A90E640042D567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				790214D516A90E640042D567 /* AspectProxy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		790214D216A90E640042D567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790214DE16A90E640042D567 /* main.m in Sources */,
+				7915674516B243FA0062EAD9 /* AspectProxy.m in Sources */,
+				7915674C16B252B40062EAD9 /* AuditingInvoker.m in Sources */,
+				79F7403816CB29D9003F8832 /* Calculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		790214E316A90E650042D567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		790214E416A90E650042D567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		790214E616A90E650042D567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AspectProxy/AspectProxy-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		790214E716A90E650042D567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AspectProxy/AspectProxy-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		790214D016A90E640042D567 /* Build configuration list for PBXProject "AspectProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790214E316A90E650042D567 /* Debug */,
+				790214E416A90E650042D567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790214E516A90E650042D567 /* Build configuration list for PBXNativeTarget "AspectProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790214E616A90E650042D567 /* Debug */,
+				790214E716A90E650042D567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 790214CD16A90E640042D567 /* Project object */;
+}
